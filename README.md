@@ -1,4 +1,4 @@
-Iris Classification using Linear SVM
+IRIS CLASSIFICATION USING LINEAR SVM
 
 📌 Project Overview
 
