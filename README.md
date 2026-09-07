@@ -89,10 +89,14 @@ Support vectors
 This visualization helps demonstrate how the Linear SVM separates the two classes.
 
 📁 Project Structure
+
 Iris-SVM/
+
 │
 ├── iris_svm.py
+
 ├── README.md
+
 └── requirements.txt
 ▶️ How to Run
 1. Clone the repository
