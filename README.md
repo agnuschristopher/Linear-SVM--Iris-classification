@@ -16,18 +16,22 @@ The model uses Petal Length and Petal Width as input features.
 The project uses the built-in Iris dataset provided by Scikit-learn.
 
 Total samples: 150
+
 Features used: 2
+
 Petal Length
+
 Petal Width
-Classes:
-Setosa
-Non-Setosa
+
+Classes:Setosa, Non-Setosa
+
 🛠️ Technologies Used
 Python
 NumPy
 Pandas
 Matplotlib
 Scikit-learn
+
 🔄 Methodology
 Load the Iris dataset.
 Select petal length and petal width as features.
@@ -46,6 +50,7 @@ F1-score
 Calculate the SVM weight vector and bias.
 Visualize the decision boundary, margins, and support vectors.
 Calculate the margin width.
+
 🤖 SVM Model
 
 The model uses:
@@ -70,6 +75,7 @@ Accuracy – Overall percentage of correct predictions.
 Precision – Percentage of predicted positive samples that are actually positive.
 Recall – Percentage of actual positive samples correctly identified.
 F1-score – Harmonic mean of precision and recall.
+
 📉 Visualization
 
 The project generates a graph showing:
@@ -96,6 +102,7 @@ cd Iris-SVM
 pip install numpy pandas matplotlib scikit-learn
 3. Run the program
 python iris_svm.py
+
 📌 Output
 
 The program displays:
@@ -115,6 +122,7 @@ Number of support vectors
 Support vectors
 Margin width
 Decision boundary and margin visualization
+
 🎯 Conclusion
 
 The project demonstrates how a Linear Support Vector Machine can be used to classify Iris flowers into Setosa and Non-Setosa classes. Petal length and petal width provide effective features for separating the classes, and the SVM visualization shows the decision boundary, margins, and support vectors clearly.
